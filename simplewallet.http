@@ -1,0 +1,33 @@
+POST http://localhost:8888/json_rpc
+Content-Type: application/json
+
+{
+  "jsonrpc" : "2.0",
+  "id" : "test",
+  "method" : "get_address",
+  "params" : {}
+}
+
+###
+
+POST http://krb.rublin.org:8888/json_rpc
+Content-Type: application/json
+
+{
+  "jsonrpc" : "2.0",
+  "id" : "test",
+  "method" : "get_address",
+  "params" : {}
+}
+
+###
+
+POST http://krb.rublin.org:8888/json_rpc
+Content-Type: application/json
+
+{
+  "jsonrpc" : "2.0",
+  "id" : "test",
+  "method" : "get_balance",
+  "params" : {}
+}
