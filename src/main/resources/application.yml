@@ -1,3 +1,9 @@
 telegram:
   name: rublin_deb_bot
   token: token_can_be_here
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/tipdb
+    password: tip-password
+    username: tip-user

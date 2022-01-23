@@ -1,5 +1,6 @@
 package org.karbo.karbotipun
 
+import org.karbo.karbotipun.service.TelegramService
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import org.telegram.telegrambots.meta.TelegramBotsApi

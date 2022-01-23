@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+  dev-db:
+    image: postgres:alpine
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: tip-user
+      POSTGRES_PASSWORD: tip-password
+      POSTGRES_DB: tipdb
+      POSTGRES_ADMIN_PASSWORD: tip-admin-password
